@@ -2,6 +2,9 @@
 
 This is a simple ToDoList application developed in React.
 
+![Demonstração do App](ToDoList/ToDoList/public/example_video.gif)
+
+
 ## Getting Started
 
 ### Prerequisites
