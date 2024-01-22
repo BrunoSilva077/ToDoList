@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(45deg, #1F1C1C , #1A1717);
+    background-size: 300% 300%;
+}
+
+.todos-form{
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+    width: 50%;
+}
+
+.todos-form label{
+    color: #69a9ce;
+    font-size: 1.5rem;
+    margin-bottom: 0.5%;
+}
+
+.todos-form input{
+    padding: 1%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 0.5%;
+    font-size: 1.2rem;
+    /* background-color: #4895c2; */
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 0.5%;
+    transition: all .3s ease-in-out;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #69a9ce;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: #2d95d1;
+    transition: all .3s ease-in-out;
+}
+
+.todos-list{
+    color: #69a9ce;
+    margin: 5% auto;
+    width: 50%;
+}
+
+.todos-list ul{
+    list-style: none;
+    margin: 1% 0% 0% 2%;
+}
+
+.todo-item {
+    margin-bottom: 1.5%;
+    font-size: 1.2rem;
+}
+
+.todo-item input{
+    margin-right: 1.5%;
+    width: 17px;
+    height: 17px;
+}
+
+.todo-item label{
+    margin-right: 1.5%;
+    font-size: 1.5rem;
+}
+
+.btn.delete{
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 1%;
+}
+
+.btn.delete:hover{
+    background-color: #c0392b;
+    transition: all .3s ease-in-out;
+}
+
