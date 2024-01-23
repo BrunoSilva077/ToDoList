@@ -41,5 +41,5 @@ Make sure you have Node.js installed on your machine.
      
 ### Usage
 
-Once the application is running, open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the ToDoList app. You can add new tasks, mark them as completed, and delete them as needed.
+Once the application is running, open your browser and navigate to [http://localhost:5275](http://localhost:5275) to view the ToDoList app. You can add new tasks, mark them as completed, and delete them as needed.
 
